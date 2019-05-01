@@ -14,8 +14,8 @@ false = 0
 
 #scatterplot of data with option to save figure.
 def scatterPlot(x,y,yp=None,savePng=False):
-	plt.xlabel('Population of City in 10,000s')
-	plt.ylabel('Profit in $10,000s')
+	plt.xlabel('x value')
+	plt.ylabel('y value')
 	plt.scatter(x, y, marker='x')
 	if yp != None:
 		plt.plot(x,yp)
