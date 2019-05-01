@@ -1,3 +1,4 @@
-# linear-regression-2variable
-linear regression 2 variable python
 
+## run the following commands
+pip install requirements.txt
+sudo apt-get install python-tk
